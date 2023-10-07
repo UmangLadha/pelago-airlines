@@ -1,0 +1,85 @@
+
+
+.Suggestion-card {
+  width: 80%;
+  margin: auto;
+}
+
+.Suggestion-card h1{
+	margin: 30px 20px;
+}
+
+.cards {
+  width: 270px;
+  /* border: 2px solid; */
+  border-radius: 20px;
+  text-align: center;
+  padding: 5px;
+  margin: 10px 20px;
+}
+
+.cards img {
+  width: 270px;
+  height: 185px;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+.cardText {
+  text-align: left;
+  padding: 0px 20px;
+}
+
+.cardText p {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 5px;
+}
+
+.cardText .topText div {
+  font-size: 11px;
+  color: green;
+  padding-bottom: 40px;
+}
+
+.cardText .btmText {
+  font-size: 11px;
+  line-height: 2px;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price p:nth-child(1) {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.offerCard{
+	display: flex;
+	justify-content:center;
+	gap: 20px;
+	align-items: center;
+	flex-wrap: wrap;
+	background-color: rgb(231, 249, 255);
+	padding: 8px 30px;
+	/* width: 70%; */
+	margin: 40px auto;
+}
+
+.offerText{
+	width: 50%;
+	/* line-height: 8px; */
+}
+
+.offerCard button{
+	background-color: transparent;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-size: 15px;
+	font-weight: 600;
+	padding: 12px 20px;
+	width: 180px;
+}
