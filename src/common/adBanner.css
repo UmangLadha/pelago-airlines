@@ -1,0 +1,41 @@
+.offerCard{
+	display: flex;
+	justify-content:center;
+	gap: 20px;
+	align-items: center;
+	flex-wrap: wrap;
+	background-color:#F2F8FA;
+	/* padding: 8px 30px; */
+	width: 80%;
+	margin: 40px auto;
+	border-radius: 10px;
+}
+
+.offerText{
+	width: 53%;
+	padding-bottom: 20px;
+}
+
+.offerText p{
+	font-size: 24px;
+	font-weight: 800;
+	line-height: 32px;
+	margin-bottom: 0;
+}
+
+.offerText a{
+	font-size: 12px;
+	color: #666;
+	letter-spacing: 0;
+	text-decoration: underline;
+}
+
+.offerCard button{
+	background-color: transparent;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-size: 15px;
+	font-weight: 600;
+	padding: 10px 40px;
+	cursor: pointer;
+}

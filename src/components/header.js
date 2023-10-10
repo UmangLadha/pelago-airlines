@@ -19,8 +19,8 @@ export const Header = () => {
   ];
   return (
     <>
-      <div className="bgImg">
-        <img src={bgImg} alt="Background Images" />
+      <div>
+        <img className="bgImg" src={bgImg} alt="Background Images" />
         <div className="hero-heading">
           <h1>Travel that shapes you</h1>
           <p>Book activities, tours and experiences</p>

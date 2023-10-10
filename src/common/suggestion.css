@@ -56,30 +56,3 @@
   font-size: 14px;
   font-weight: 700;
 }
-
-.offerCard{
-	display: flex;
-	justify-content:center;
-	gap: 20px;
-	align-items: center;
-	flex-wrap: wrap;
-	background-color: rgb(231, 249, 255);
-	padding: 8px 30px;
-	/* width: 70%; */
-	margin: 40px auto;
-}
-
-.offerText{
-	width: 50%;
-	/* line-height: 8px; */
-}
-
-.offerCard button{
-	background-color: transparent;
-	border: 1px solid black;
-	border-radius: 5px;
-	font-size: 15px;
-	font-weight: 600;
-	padding: 12px 20px;
-	width: 180px;
-}

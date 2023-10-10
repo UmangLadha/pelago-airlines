@@ -1,5 +1,5 @@
 import './App.css';
-import { Header } from './components';
+import { Header, Tourplaces } from './components';
 import { Suggestion, Navbar } from './common';
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
      <Navbar/>
 	 <Header/>
 	 <Suggestion/>
+	 <Tourplaces/>
     </div>
   );
 }
