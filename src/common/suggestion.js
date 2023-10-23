@@ -11,7 +11,6 @@ export const Suggestion = () => {
       <h1>Recommended for you</h1>
 
         <div className="cards">
-
           <img src={cardImg} alt="Card Images" />
           <div className="cardText">
             <div className="topText">

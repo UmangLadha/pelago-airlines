@@ -19,7 +19,7 @@ export const Header = () => {
   ];
   return (
     <>
-      <div>
+      
         <img className="bgImg" src={bgImg} alt="Background Images" />
         <div className="hero-heading">
           <h1>Travel that shapes you</h1>
@@ -35,7 +35,7 @@ export const Header = () => {
             </div>
           ))}
         </div>
-      </div>
+      
     </>
   );
 };

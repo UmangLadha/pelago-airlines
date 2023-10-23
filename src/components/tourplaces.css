@@ -3,7 +3,8 @@
 }
 
 .places-to-visit{
-	width: 80%;
+	max-width: 100%;
+	width: 85%;
 	margin: auto;
 	padding-top: 4rem;
 }
@@ -30,5 +31,99 @@
 
 .button-list button:hover{
 	border: 1px solid black;
-	color:black ;
+	/* color:black ; */
+}
+
+button:focus{
+	background-color:#333;
+	color: #F1F1F1;
+	border: 1px solid black;
+}
+
+.tourPlacesLists{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 2rem;
+	gap: 10px;
+}
+
+.tourPlacesCards{
+	display:flex;
+	width:600px;
+	border-radius: 10px;
+	background-color:#fff;
+}
+
+.tourPlacesCards img{
+	width:560px;
+	height: 29vh;
+	object-fit: cover;
+    border-radius: 14px;
+	overflow: hidden;
+}
+
+.tourPlacesText{
+	text-align: left;
+    padding-left: 20px;
+	display: flex; 
+	flex-direction: column;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.tourTopText{
+	line-height: 6px;
+	color: #333;
+}
+
+.tourTopText p{
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 22px
+}
+
+.tourTopText small{
+	font-size: 14px;
+	color: green;
+}
+
+.tourBtmText{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 12px 12px 12px 0;
+	color: #333;
+}
+
+.tourBtmText small{
+	font-size: 10px;
+	padding-bottom: 8px;
+}
+
+.tourPlacesPrice {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.tourPlacesPrice p{
+	font-size: 16px;
+	font-weight: 600;
+	margin: 0;
+}
+
+.tourPlacesBtn{
+	background:#fff;
+	border: 1px solid black;
+	color: #333;	
+	padding: 12px 24px;
+	font-size: 18px;
+	font-weight: 600;
+	cursor: pointer;
+	transition: all .3s ease;
+	outline: none;
+	border-radius: 10px;
+	margin: 2rem auto;
 }
