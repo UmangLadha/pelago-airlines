@@ -1,0 +1,55 @@
+.explore-contanier {
+  width: 75%;
+  margin: 4rem auto;
+}
+
+.explore-contanier h1 {
+  color: #333;
+  font-weight: 700;
+}
+
+.exploreLists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.exploreCards img {
+  width: 180px;
+  height: 30vh;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: ease .3s ;
+
+}
+
+.exploreCards :hover{
+	transform: translateY(-4px);
+	box-shadow: 0px 4px 16px rgba(0,0,0,.16);
+}
+
+.cardHolder h3{
+	margin-top:6px; 
+	font-weight: 700;	
+}
+
+.btnDiv{
+	margin: 2rem auto;
+	text-align: center;
+}
+
+.exploreBtn{
+	background:#fff;
+	border: 1px solid black;
+	color: #333;	
+	padding: 12px 24px;
+	font-size: 18px;
+	font-weight: 600;
+	cursor: pointer;
+	transition: all .3s ease;
+	outline: none;
+	border-radius: 10px;
+}

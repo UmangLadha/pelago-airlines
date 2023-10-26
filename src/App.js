@@ -1,5 +1,5 @@
 import './App.css';
-import { Header, Tourplaces } from './components';
+import { Header, Tourplaces, Explore, Review } from './components';
 import { Suggestion, Navbar } from './common';
 
 function App() {
@@ -9,6 +9,8 @@ function App() {
 	 <Header/>
 	 <Suggestion/>
 	 <Tourplaces/>
+	 <Explore/>
+	 <Review/>
     </div>
   );
 }

@@ -26,13 +26,13 @@ export const Header = () => {
           <p>Book activities, tours and experiences</p>
           <input type="text" placeholder="Search for tours" />
         </div>
-
+		
         <div className="promotion">
           {promoDetails.map((promo) => (
             <div className="promo">
               <div>{promo.promoTitle}</div>
               <p>{promo.promoDesc}</p>
-            </div>
+            </div> 
           ))}
         </div>
       

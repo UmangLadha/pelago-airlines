@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./tourplaces.css";
-import { sgpArr,bali,taipei,tokyo,bangkok } from "./placesData.js";
+import { sgpArr, bali, taipei, tokyo, bangkok } from "./placesDatas.js";
 
 export const Tourplaces = () => {
   const [placeSelected, setplaceSelected] = useState("");
