@@ -9,6 +9,7 @@ import { AiFillLinkedin } from "react-icons/ai";
 export const Footer = () => {
   return (
     <div className="footerContainer">
+		<hr />
       <footer>
         <div className="footerContent">
           <img src={logo} alt="" />
@@ -59,7 +60,7 @@ export const Footer = () => {
               </a>
             </li>
           </ul>
-          <div className="socialMediaDiv">
+          <div className="socialMediaApps">
             <BiLogoTiktok />
             <BsFacebook />
             <AiFillInstagram />
