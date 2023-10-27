@@ -1,16 +1,17 @@
-import './App.css';
-import { Header, Tourplaces, Explore, Review } from './components';
-import { Suggestion, Navbar } from './common';
+import "./App.css";
+import { Header, Tourplaces, Explore, Review } from "./components";
+import { Navbar, Suggestion, Footer } from "./common";
 
 function App() {
   return (
     <div className="App">
-     <Navbar/>
-	 <Header/>
-	 <Suggestion/>
-	 <Tourplaces/>
-	 <Explore/>
-	 <Review/>
+      <Navbar />
+      <Header />
+      <Suggestion />
+      <Tourplaces />
+      <Explore />
+      <Review />
+      <Footer />
     </div>
   );
 }
